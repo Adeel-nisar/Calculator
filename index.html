@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Anton:regular" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/485438f9b9.js" crossorigin="anonymous"></script>
+  <title>Crud</title>
+  <style>
+    body::-webkit-scrollbar {
+  width: 0;
+}
+th, td {
+  width: 25%;
+  text-align: center;
+  padding: 5px 0;
+}
+th{
+  margin: 0 2px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+  </style>
+</head>
+<!-- #132c59 -->
+<!-- #000c18 -->
+<!-- #051336 -->
+<body class="font-['Work Sans']">
+  <main class="bg-[url('images/background.jpg')] bg-cover p-40">
+    <div class="bg-[#0000] pt-20 pb-10 px-20 backdrop-blur-2xl">
+      <h1 class="text-[2rem] text-[#132c59] text-center font-['anton']" id="h1">Percentage Calculator</h1>
+      <div class="flex justify-center gap-4 mt-12 mb-8 font-['work sans'] text-[#132c59] font-medium">
+        <input class="bg-[#00000000] text-center border-b border-[#181f2f90] outline-none placeholder-[#05133658]" type="number" placeholder="TOTAL DOLLAR" id="total-dollar">
+        <input class="bg-[#00000000] text-center border-b border-[#05133690] outline-none placeholder-[#05133658]" type="number" placeholder="PERCENTAGE" id="percentage">
+      </div>
+      <div class="flex justify-center">
+        <button class="bg-[#132c59] text-white rounded py-2 px-3 w-32 duration-1000 mb-6 hover:bg-[#051336] hover:w-36" id="submitBtn">SUBMIT</button>
+      </div>
+      <table class="text-white w-full" id="table">
+        <tr>
+          <th class="bg-[#132b59a1] font-normal">PKR </th>
+          <th class="bg-[#132b59a1] font-normal">ADEEL</th>
+          <th class="bg-[#132b59a1] font-normal">EMPLOYEES</th>
+          <th class="bg-[#132b59a1] font-normal">ACTIONS</th>
+        </tr>
+        <!-- <tr>
+          <td>1</td>
+          <td>Samad</td>
+          <td>Male</td>
+          <td><i class="fa-regular fa-pen-to-square"></i<i class="fa-solid fa-trash"></i></td>
+        </tr> -->
+      </table>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html> 
